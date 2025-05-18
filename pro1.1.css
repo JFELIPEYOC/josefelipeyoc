@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Autobiografía</title>
+     <!--
+    Autor: Jose felipe pirir yoc
+    tarea: consiste en  realizar un proyecto donde la idea principal  de autografia  donde se debe incluir datos importantes como niñez , nivel academico etc..  usando  en practica lenguaje html entre ellos el uso de las etiquetas basicas como head , body ,p,h1 , de igual manera el uso de insertar imagenes , videos, funciones, estilos de letras color .
+    Creado: Abril 2024
+  -->
+
+
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+           background-image:url("fondo pantalla/fondo.jpg");
+        }
+        header {
+            text-align: center;
+            padding: 10px;
+            background: black;
+            color: white;
+        }
+        section {
+           background-image:url("fondo pantalla/silver.jpg");
+        }
+        
+        .titulo-morado {
+            color:purple; 
+        }
+        .titulo-blue {
+            color:blue; 
+        }
+        .texto-blanco{
+            color:white;
+            }
+     
+        nav {
+            background-color: #2c3e50;
+            display: flex;
+            padding: 0 20px;
+            align-items: center;
+            height: 60px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 25px;
+        }
+        nav ul li {
+          
+            position: relative;
+        }
+        nav ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            padding: 10px 8px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+            display: inline-block;
+        }
+        nav ul li a:hover,
+        nav ul li a.active {
+            background-color: #2980b9;
+            color: #fff;
+        }
+        /* Contenido de la página */
+        main {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+            color: #2c3e50;
+        }
+        h1 {
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        p {
+            color:black;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+    </style>
+       
+</head>
+
+<body>
+
+
+<header>
+    <h1 class="#auto">Mi Autobiografía</h1>
+      <p> Un relato sobre mi vida y mis sueños</p>
+</header>
+<nav>
+        <ul>
+            <li><a href="#inicio" class="active">INICIO</a></li>
+            <li><a href="#Académico">ACADEMICO</a></li>
+            <li><a href="#METAS">METAS</a></li>
+            <li><a href="#HOBBIES">HOBBIES</a></li>
+             <li><a href="#FOTOS">FOTOS</a></li>
+            <li><a href="#VIDEOS">VIDEOS</a></li>
+            <li><a href="#CONTACTO">CONTACTO</a></li>
+
+
+
+        </ul>
+    
+
+    </nav>
+
+
+<section>
+    <h2   CLASS="titulo-morado">Historia familiar</h2>
+    <p>Nací en una familia amorosa y unida. Mi madre y mis hermanos siempre me han apoyado en todo momento y me han enseñado valores fundamentales como el respeto, la honestidad y el esfuerzo. Tengo 10 hermanos cada uno de ellos son parte especial en mi vida , hemos pasado momentos muy dificiles y momentos felicez , en esta parte muestro algunas imagenes donde compartimos , por ejemplo la primer foto que tengo junto a mi madre es reciente en estas vaciones del 2025 , en otra de las imagenes se puede apreciar a mis hermanos varones , otras de las vacaciones de echo ese año fue 2010 fue una de la ultima vaciones que comparti con mi hermano mayor ya que al siguiente mes el fallecio  un momento muy dificil para mi y mi familia , otras de las imagenes mostradas por ejemplo es cuando yo era pequeño apenas recuerdo conocer a mi padre ya que el fallecio cuandod yo tenia tan solo 5 años , en una de las ultimas imagenes estoy junto a mis sobrinitos , al final uno medita donde hay seres queridos que se van y nacen otros seres queridos ,el recuerdo siempre vivira. </p>
+    <center>
+    <img src="historia familiar/madre1.jpg"style="width:200px ; height:200px;">
+     <img src="historia familiar/familia1.jpg"style="width:200px ; height:200px;">
+     <img src="historia familiar/familia2.jpg"style="width:200px ; height:200px;">
+      <img src="historia familiar/familia3.jpg"style="width:200px ; height:200px;">
+      
+
+</center>
+</section>
+
+<section>
+    <h2 class= "titulo-morado">Niñez</h2>
+    <p>Mi niñez fue llena de juegos,muchos momentos de mi niñez fueron muy alegres , mientras realizaba la recoleccion de imagenes puedo recordar con mucha nostalgia mi niñez y estoy muy agradecido con mi familia que  capturaron momentos de mi infancia que quedan en el recuerdo , una de las imagenes es donde yo estoy en la boda de un familiar de mi madre , otras de las imagenes  me encuentro en un columpio ala vez es una imagen que captura muchos sentimientos porque estoy muy feliz donde en la parte de atras esta mi padre causando una tristeza el no poder conocerlo , en las siguientes imagenes se aprecia donde estoy en un rio de chiquimula , de igual manera se ve donde estoy junto a mi hermana mayor , otros de los momentos mas felices fue la celebracion de mi primer cumpleaños. </p>
+    <center>
+<img src ="niñez/niño.jpg" style="width: 200px; height: 200px;"> <img src ="niñez/niño2.jpg" style="width: 200px; height: 200px;">
+<img src ="niñez/niño3.jpg" style="width: 200px; height: 200px;">
+<img src ="niñez/niño4.jpg" style="width: 200px; height: 200px;">
+<img src ="niñez/niño5.jpg" style="width: 200px; height: 200px;">   
+
+</center>
+</section>
+
+<section>
+    <h2 CLASS="titulo-morado">Adolescencia</h2>
+    <p>La adolescencia fue una etapa de aprendizaje y crecimiento personal. Experimenté nuevas emociones, hice amigos que aún conservo y me apasioné por el deporte y la música, lo cual marcó mi identidad durante esos años, gracias a muchas experiencias una de las experiencias nuevas en mi adolescencia fue mi introduccion al trabajo uno de las anecdotas es que a los 16 años inicie trabajando en un mercado cerca de mi colonia donde el trabajo que realice ahi fue de bodeguero de zapateria ahi en ese lugar aprendi muchas cosas como por ejemplo el valor de la responsabilidad laboral despues de mis tres años , decidi  buscar otro empleo donde tuviera estabilidad y crecimiento laboral de esa manera obtuve un empleo en mantenimiento  para una empresa pequeña que le prestaba servivios al restaurante pizza grizzly en la empresa obtuve demasiada experiencia , de igual manera  tuve 4 años laborando para la empresa resertcs  despues de la oportunidad que me brindo , decidid buscar otro empleo donde tendria un aumento salarial y  actualmente  estoy en la empresa lecleire ya teniendo 3 años de experiencia.</p>
+ <center>   
+<img src= "adolescencia/joven.jpg" style="width:200px; height: 200px ;">
+</center>
+
+
+</section>
+
+<section>
+    <h2 CLASS="titulo-morado" >Personal</h2>
+    <p>Como persona, me considero alguien perseverante, amable y creativo. Siempre busco aprender de las experiencias y esforzarme para alcanzar mis metas. Valoro la amistad, la familia y la honestidad por encima de todo ,otras de las formas mas detalladas que me identifico personalmente es siempre la iniciativa de ayudar a las personas que mas lo necesitan aportando mi granito de arena porque de esa manera se siente una gran gratificacion, como tambien  muy conocida la frase que dice lo que siembras cosechas , en este caso yo no espero  lo cosechado para recibir sino lo hago de manera que donde siembro que esa persona  tambien siembre en alguien mas y eso sea una cadena donde de bendicion , sigue siendo un proceso dificil pero la perseverancia dara su recompensa .</p>
+    <center>
+<img src="personal/inge.jpg" style="width:200px; height:200px;">
+<img src="personal/pasatiempo4.jpg" style="width:200px; height:200px;">
+<img src="personal/personal.jpg" style="width:200px; height:200px;">
+</center>
+
+
+</section>
+
+  <section id = "Académico">
+    <h2 CLASS="titulo-morado">Académico</h2>
+    <p>Mis estudios han sido una prioridad constante me gusta mucho estudiar pero apesar de eso  me cuesta bastante aprender trato la manera cada dia mejorar , mi etapa academica empieza en la escuela oficial rural mixta sacoj chiquita cursando  todo mi nivel  de educacion primaria durante esos años aprendi mucho gracias a los maestros , uno de los anecdotas mas recordados fue que en primero primaria tuve una maestra que me decia que yo soy un niño con capacidades menores que los demas y quizas tenia razon pero apesar de saber eso nunca me ayudo , y en ese entonces la escuela implemento un grado donde fueron integrando niños indisciplinados , con malas notas y con capacidades menores  en su momento la maestra me incluyo en ese grupo donde por fortuna el maestro que  estuvo a cargo fue una persona  que se veia que realmente amaba lo que ejercia  aun me recuerdo del maestro javier donde  el mediante de su metodo de estudio me ayudo muchisimo aprendi a leer y escribir gracias a el no me quede de año logre pasar a segundo primaria , ya en la educacion media basica ingrese al instituto nacional de educacion basica carolingia durante esos años aprendi mucho tanto como metodos nuevos de estudios , relacion de rotacion de maestros  y el entorno que era muy diferente los basicos logre salir bien uno de los bonitos anecdotas que vivi en el instituto que tratando la manera de ser disciplinado en todas las materia me otorgaron una beca , tambien en el ambito del deporte aprendi lo bonito que ere el  futbol , terminando mis basicos , me tocaba elegir que carrera me interesaba y sin duda alguna una de las opciones que tenia la principal fue bachillerato en computacion donde gracias a Dios tuve la oportunidad de estudiarlo en  el instituto tecnologico de dibujo y electricidad  los dos años que curse aprendi muchisimo de lo que se basaba la carrera aprendi varias areas, como por ejemplo html basico , turbo pascal y de igual manera  pude terminar mi bachillerato , despues de eso le di una pausa a mis estudios porque uno de mis sueños era seguir una ingenieria en la universidad de la san carlos  pero por muchos motivos se retraso , como por ejemplo  tenia que tener mi estabilidad economica ya que en mi casa ya dependian de mi , ya que todos mis hermanos y hermanas formaron su familia . tenia una hermana que gracias a ella que me apoyo durante todo el proceso tuvo su matrimonio , y ya mi madre ya es mayor de edad , entonces muchas dudas durante todo mi proceso , trate la manera de prepararme la mejor manera para los basicos y los logre ganar , en los especificos quise hacerlos pero al final la duda me gano las preocupaciones no me sentia capaz, y tuve que dejarlo todo y pasaron  10 años para volver a nacer el valor de seguir y ahorita gracias a Dios estoy iniciando en la universidad mariano galvez y espero  seguir adelante ya que aun me cuesta bastante y ojala que con esfuerzo y perseverancia avance poco a poco.  </p>
+
+    <center>
+ <img src="academico/academico1.jpg"style="width:200px ; height:200px;">
+<img src="academico/academico2.jpg"style="width:200px ; height:200px;">
+<img src="academico/academico3.jpg"style="width:200px ; height:200px;">
+ <img src="academico/curso1.jpg"style="width:200px ; height:200px;">
+<img src="academico/uni.jpg"style="width:200px ; height:200px;">
+<img src="academico/uni1.jpg"style="width:200px ; height:200px;">
+</center>
+
+
+</section>
+
+<section id = "METAS">
+    <h2 CLASS="titulo-morado">Metas</h2>
+    <p>Tengo muchas metas que deseo lograr, entre ellas terminar mis estudios  en la universidad mariano galvez con excelencia, aprender varios idiomas y poder viajar por el mundo. Deseo también contribuir a mi comunidad mediante acciones voluntarias y proyectos educativos.</p>
+    <center>
+    <img src="metas/fotos5.jpg" style="width:200px; height:200px;">
+    <img src="metas/trabajo.jpg" style="width: 200px; height:200px ;">
+     <img src="metas/trabajo2.jpg" style="width: 200px; height:200px ;">
+      <img src="metas/trabajo3.jpg" style="width: 200px; height:200px ;">
+       <img src="metas/trabajo4.jpg" style="width: 200px; height:200px ;">   
+        <img src="metas/trabajo5.jpg" style="width: 200px; height:200px ;">
+      <img src="metas/graduado.jpg" style="width:200px; height:200px;">
+      <img src="metas/casa.jpg" style="width:200px; height:200px;">
+
+     </center>
+
+
+
+</section>
+
+<section  id="HOBBIES">
+    <h2 CLASS="titulo-morado">Hobbies</h2>
+    <p>En mi tiempo libre disfruto leer libros de aventuras y ciencia ficción uno de los libros que leeo son naruto ya que me deja una gran enseñanza donde  rendirse no es una opcion que hay que seguir adelante apesar de las adversidades   no abandonar el camino,  los videojuegos son uno de los hobbies que mas adoro hacer el porque fue ya que mi hermano que fallecio, me enseño a jugar videojuegos entonces en el momento que el fallecio  senti que la manera que yo podia sentir aun una conexion con el es mediante los videojuegos, uno de los personajes que mas me gusta son mario bros tambien charmander la etapa de los videjuegos  es lo mas bonito que pude conocer. otros  de los hobbies que me gustan es el futbol la imagen que muestro es donde estoy con mis amigos de basicos donde aprendi a que era jugar futbol ya que nunca en mi vida sabia que era patear un balon .</p>
+    <center>
+    <img src="me gusta/pasatiempo5.jpg" style= "width: 200px; height:200px;">
+      <img src="hobbies/pasatiempo1.jpg" style= "width: 200px; height:200px;">
+       <img src="hobbies/amig2.jpg" style= "width: 200px; height:200px;">
+        <img src="hobbies/amista.jpg" style= "width: 200px; height:200px;">
+    </center>
+
+
+
+</section>
+
+<section>
+    <h2 CLASS="titulo-morado" >Deportes</h2>
+    <p>El deporte que más me gusta es el fútbol, practico con mis amigos en el parque cada fin de semana. uno de los comienzo en el futbol fue cuando tenia 14 años  mis amigos del instituto me invito a jugar futbol y asi es como comienza mi gusto por el futbol el primer año que jugue futbol  quedamos subcampeon , al siguiente año obtuvimos el primer lugar y el sentimiento que se sentia era unico , y por un momento deje el futbol y me dedique a trabajar en un  zapateria de mercado y tuve que  dejarlo con forme paso el tiempo volvi a jugar futbol y a mis 17 años en el equipo que estuve logramos llegar ala final donde ganamos afortunadamente ,y en uno de los momentos mas recientes que comparto con el futbol que el año pasado donde junto a un amigo tuvimos la oportunidad a cargo un equipo y durante el paso que tuvimos logramos salir campeones.</p>
+    <center>
+    <img src="deportes/deporte.jpg" style="width:200px; height:200px;">
+    <img src="deportes/deporte1.jpg" style="width:200px; height:200px;">
+     <img src="deportes/deporte2.jpg" style="width:200px; height:200px;"> 
+     <img src="deportes/deporte3.jpg" style="width:200px; height:200px;">
+
+     <img src="deportes/deporte4.jpg" style="width:200px; height:200px;">
+     </center>
+</section>
+
+<section>
+    <h2 CLASS="titulo-morado">Lo que me gusta</h2>
+    <ul>
+        <li>Pasar tiempo con amigos</li>
+        <li> deportes en especial futbol</li>
+        <li>jugar videojuegos </li>
+        <li>Aprender cosas nuevas y resolver problemas</li>
+        <li>El coleccionismo </li>
+    </ul>
+
+    <center>
+     <img src="me gusta/deporte5.jpg" style="width:200px; height:200px;">
+      <img src="me gusta/deporte6.jpg" style="width:200px; height:200px;">
+       <img src="me gusta/pasatiempo2.jpg" style="width:200px; height:200px;">
+      
+         <img src="me gusta/pasatiempo5.jpg" style="width:200px; height:200px;">
+           <img src="me gusta/pasatiempo3.jpg" style="width:200px; height:200px;">
+    </center>  
+
+</section>
+
+<section>
+    <h2 CLASS="titulo-morado">Lo que no me gusta</h2>
+    <ul>
+        <li>las hamburguesas</li>
+        <li>la politica</li>
+        <li>La injusticia</li>
+        
+    </ul>
+    <center>
+   <img src="no me gusta/comidarapida.jpg" style="width:200px; height:200px;">
+   <img src="no me gusta/politica.jpg" style="width:200px; height:200px;">
+   <img src="no me gusta/injusticia.jpg" style="width:200px; height:200px;">
+   </center>
+</section>
+
+<section>
+    <h2 CLASS="titulo-morado">A quienes admiro</h2>
+  
+        <li>steve jobs   Admiro a personas que luchan por sus sueños y ayudan a los demás.algunas de las personas que admiro en el ambito global es steve jobs una mente maestra quien supo aprovechar sus capacidades tuvo el primer ordenador personal que se comercializó exitosamente que usaba una interfaz gráfica de usuario.</li>
+        <li> oliver sykes un cantante britanico  la admiracion hacia su arte y como persona, la similitud de la situacion que pasaba me sentida identificado y me  ayudo mucho su forma de ver una manera bonita la vida</li>
+        <li>miyamoto el creador del personaje de videojuego que mas me gusta y admiro </li>
+        <li>naruto uzumaki personaje ficticio que admiro demasiado ya que apesar de sus condiciones desde su niñez jamas se rindio  teniendo tantos obstaculos  de la vida , apesr de no tener padres siempre tuvo momentos de soledad pero nunca se dejo manipular por la soledad y ni la adversidad le afecto y su sueño era ser hokage siempre juro que lo lograria y con el tiempo eso se volvio realidad </li>
+        <li> Justin Bieber es una de las personas que admiro  tuvo una situacion de adiccion donde ya era demasiado considerable y  tocando fondo y recurriendo a Dios donde relata  que hizo un “trato con Dios” para romper las adicciones que controlaron su vida durante años. "Básicamente me dije a mí mismo: 'Dios, si eres real, me ayudarás a superar esta temporada de dejar estas pastillas y esas cosas, y si lo haces, yo haré el resto del trabajo'"</li>
+
+
+
+
+ <img src="admiro/steve.jpg" style="width:200px; height:200px;">
+ <img src="admiro/oliver.jpg" style="width:200px; height:200px;">
+ <img src="admiro/miyamoto.jpg" style="width:200px; height:200px;">
+ <img src="admiro/naruto.jpg" style="width:200px; height:200px;">
+ <img src="admiro/justin.jpg" style="width:200px; height:200px;">
+
+
+
+</section>
+
+<section id="FOTOS">
+    <h2 CLASS="titulo-morado" >Fotos</h2>
+<center>
+<img src="fotos/viaje.jpg" style="width:200px; height:200px;">
+<img src="fotos/viaje2.jpg" style="width:200px; height:200px;">
+<img src="fotos/viaje3.jpg" style="width:200px; height:200px;">
+
+<img src="fotos/fotos8.jpg" style="width:200px; height:200px;">
+<img src="fotos/fotos9.jpg" style="width:200px; height:200px;">
+<img src="fotos/fotos8.jpg" style="width:200px; height:200px;">
+<img src="fotos/fotos7.jpg" style="width:200px; height:200px;">
+</center>
+
+
+
+</section>
+
+<section id="VIDEOS">
+    <h2  CLASS="titulo-morado">Videos</h2>
+    
+<center>
+<video controls poster="videos/juego.MP4" width="300px" height="250px">
+        <source src="videos/juego.MP4" type="video/MP4" />
+    </video>
+<video controls poster="videos/video1.MP4" width="300px" height="250px">
+        <source src="videos/video1.MP4" type="video/MP4" />
+    </video>
+    <video controls poster="videos/video2.MP4" width="300px" height="250px">
+        <source src="videos/video2.MP4" type="video/MP4" />
+    </video>
+
+
+</center>
+
+</section>
+
+<section>
+    <h2  >Sitios recomendados</h2>
+    <ul>
+        <li><a href="https://www.wikipedia.org/" target="_blank" rel="noopener noreferrer">Wikipedia</a> - Para investigar y aprender sobre múltiples temas.</li>
+        <li><a href="https://www.khanacademy.org/" target="_blank" rel="noopener noreferrer">Khan Academy</a> - Plataforma educativa con cursos gratuitos.</li>
+        <li><a href="https://es.duolingo.com/" target="_blank" rel="noopener noreferrer">Duolingo</a> - Para aprender idiomas de forma gratuita y divertida.</li>
+        <li><a href="https://www.ted.com/" target="_blank" rel="noopener noreferrer">TED</a> - Charlas inspiradoras sobre diferentes temas.</li>
+    </ul>
+</section>
+
+
+    <script>
+        // Script para cambiar la pestaña activa cuando se hace clic
+        const links = document.querySelectorAll('nav ul li a');
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                links.forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
+            });
+        });
+    </script>
+
+<section id="CONTACTO">
+  <h2>Contacto</h2>
+  <p>Si tienes alguna pregunta o deseas más información, no dudes en contactarnos.</p>
+  <p>Email: <a href="mailto:contacto@ejemplo.com">josefelipepiriryoc@gmail.com</a></p>
+  <p>Teléfono: <a href="tel:+50258669324">+502 586 693 24</a></p>
+</section>
+
+<button onclick="scrollToTop()" id="btnVolverArriba" aria-label="Volver al principio">⬆ Volver arriba</button>
+  <script>
+    function scrollToTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      });
+    }
+  </script>
+
+<footer >
+    <p class= "texto-blanco">© 2025 autor jose felipe pirir yoc - Creado con HTML básico</p>
+</footer>
+</body>
+</html>
